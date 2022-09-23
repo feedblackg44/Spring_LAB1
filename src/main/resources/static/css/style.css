@@ -1,0 +1,21 @@
+@import "mainPage/nullLayer.css";
+@import "mainPage/header.css";
+@import "mainPage/aboutUs.css";
+@import "mainPage/main.css";
+@import "mainPage/footer.css";
+
+body {
+    background-image: url('../img/sp_background.svg');
+    background-size: cover;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+

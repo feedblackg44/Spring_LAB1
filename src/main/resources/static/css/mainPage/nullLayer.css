@@ -1,0 +1,6 @@
+
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd { margin: 0;}
+
+*,*::before,*::after { box-sizing: border-box; }
+
+html, body, .outwrapper{ height: 100%; width: 100%;}

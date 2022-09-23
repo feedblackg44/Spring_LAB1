@@ -1,0 +1,23 @@
+
+header {
+    width: 100%;
+    height: 8%;
+
+    display: flex;
+    flex: 0 0 auto;
+}
+.header__text{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex: 1 0 auto;
+
+    color: #54b236;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: 30px;
+    margin-left: 30px;
+}

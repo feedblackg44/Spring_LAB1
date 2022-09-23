@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" th:href="@{css/style.css}">
+</head>
+<body>
+    <header class="header">
+        <div class="header__text">
+            <div>spring framework 2022</div>
+        </div>
+    </header>
+    <div class="aboutUs">
+        <div class="aboutUs__header">
+            Together we can go higher
+        </div>
+        <div class="aboutUs__textBlock">
+            <div class="aboutUs__text">
+                This template makes use of large images in a modern layout to break up the ample white space.
+            </div>
+            <div class="aboutUs__text">
+                The result: A clean and enjoyable reading experience.
+            </div>
+           <div class="aboutUs__text">
+               The top of the page puts the brand story (or other introductory text) first
+           </div>
+        </div>
+    </div>
+    <div class="main">
+        <a th:href="@{html/danylo.html}" class="person" id="Danylo">
+            <div class="icon">
+                <img class="sp_icon" th:src="@{img/sp_icon.svg}" alt="">
+            </div>
+            <div class="person__main">
+                <div class="person__main__textBlock">
+                    <div class="person__main__text">
+                        >> Danylo Badenko (IS-02)
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a th:href="@{html/ilya.html}" class="person" id="Ilya">
+            <div class="icon">
+                <img class="sp_icon" th:src="@{img/sp_icon.svg}" alt="">
+            </div>
+            <div class="person__main">
+                <div class="person__main__textBlock" >
+                    <div class="person__main__text">
+                        >> Ilya Plostak (IS-02)
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a th:href="@{html/oleksii.html}" class="person" id="Oleksiy">
+            <div class="icon">
+                <img class="sp_icon" th:src="@{img/sp_icon.svg}" alt="">
+            </div>
+            <div class="person__main">
+                <div class="person__main__textBlock">
+                    <div class="person__main__text">
+                        >> Oleksii Tymoshenko (IT-01)
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <footer>
+        <div class="footer__text">
+            team №7 var #25
+        </div>
+    </footer>
+</body>
+</html>
